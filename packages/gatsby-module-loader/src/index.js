@@ -7,7 +7,7 @@
 const loaderUtils = require(`loader-utils`)
 const path = require(`path`)
 
-module.exports = function() {}
+module.exports = () => {}
 module.exports.pitch = function(remainingRequest) {
   this.cacheable && this.cacheable()
 
